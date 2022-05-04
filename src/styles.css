@@ -1,0 +1,46 @@
+s.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 5px 5px 5px 10px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 50%;
+}
+
+button[type="submit"] {
+  margin-left: 10px;
+  width: 130px;
+  box-sizing: border-box;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 4px;
+  font-size: 15px;
+  background-color: rgb(220, 244, 255);
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 5px 5px 5px 10px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.14), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+li {
+  text-align: left;
+}

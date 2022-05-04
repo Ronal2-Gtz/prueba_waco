@@ -4,6 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
+import "../styles/styles.scss";
 
 export default function CharacterList({ characters, search }) {
   console.log(characters);
